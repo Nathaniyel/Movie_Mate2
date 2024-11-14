@@ -16,11 +16,11 @@ const showtime = require('./routes/showtime')
 
 mongoose.set('strictQuery', false)
 mongoose
-	.connect(process.env.DATABASE, { autoIndex: true })
-	.then(() => {
-		console.log('mongoose connected!')
-	})
-	.catch((err) => console.log(err))
+    .connect(process.env.DATABASE, { autoIndex: true })
+    .then(() => {
+        console.log('Connected to MongoDB Atlas')
+    })
+    .catch((err) => console.log(err))
 
 const app = express()
 
