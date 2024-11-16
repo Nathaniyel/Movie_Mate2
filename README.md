@@ -29,4 +29,4 @@ _Backend/API is hosted at render.com on free tier. So, it goes inactive after 15
 
 **Server/BackEnd/API:** Node, Express
 
-**Database:** MySQL
+**Database:** MongoDB
